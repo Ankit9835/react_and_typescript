@@ -1,9 +1,13 @@
-import Component from "./starter/01-return";
+import Component from "./starter/02-props";
 
 function App() {
   return (
     <main>
-      <Component />
+      <Component name='test' id={123} >
+        content
+      </Component>
+      <Component name='test' id={123} >
+      </Component>
     </main>
   );
 }
