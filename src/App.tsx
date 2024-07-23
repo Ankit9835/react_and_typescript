@@ -1,13 +1,9 @@
-import Component from "./starter/02-props";
+import Component from "./starter/06-context";
 
 function App() {
   return (
     <main>
-      <Component name='test' id={123} >
-        content
-      </Component>
-      <Component name='test' id={123} >
-      </Component>
+      <Component />
     </main>
   );
 }
