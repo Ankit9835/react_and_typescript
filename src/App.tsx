@@ -1,4 +1,4 @@
-import Component from "./starter/06-context";
+import Component from "./starter/10-tasks";
 
 function App() {
   return (
